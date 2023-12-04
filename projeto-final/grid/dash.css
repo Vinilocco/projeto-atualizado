@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 3fr; /* 1 parte para a lateral e 3 partes para o dashboard */
+}
+
+.dashboard {
+    border: 1px solid mediumslateblue;
+    border-radius: 0; /* Borda quadrada */
+    padding: 20px;
+    margin: 20px 0;
+    transition: background-color 0.3s;
+    background-color: #ccc; /* Adiciona fundo cinza */
+}
+
+#area-cabecalho {
+    background-color: mediumpurple;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo, #area-menu {
+	padding: 10px;
+}
+
+#area-lateral {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.conteudo-lateral {
+    text-align: center;
+}
+
+h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+h2 {
+    color: #f7b600;
+    margin-bottom: 10px;
+}
+
+h3 {
+	color: #565656;
+	background: #CCC;
+	padding: 2px;
+}
+
+.branco {
+    color: white;
+}
+
+#rodape {
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: #CCC;
+}
+
+a {
+	text-decoration: none;	
+}
+
+a:link, a:visited {
+	color: #f7b600;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+	color: #FFF;
+	padding: 8px 12px;
+}
+
+#area-cabecalho a:hover {
+	color: #f7b600;
+	background: #FFF;
+	text-decoration: none;
+}
+
+

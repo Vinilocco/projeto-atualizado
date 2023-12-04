@@ -1,0 +1,94 @@
+ body {
+            font-family: "Trebuchet MS", Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: grid;
+            font-size: 1em;
+            grid-gap: 20px;
+            background: #cec4c4;
+        }
+
+        .manual-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .content{
+            display: none;
+        }
+
+        .section {
+            border: 2px solid mediumslateblue;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 20px 0;
+            transition: background-color 0.3s;
+            background-color: #ffffff;
+
+            /* Adiciona uma transição suave */
+        }
+
+        .section:hover {
+            background-color: rgb(134, 128, 128);
+            /* Cor de fundo quando passa o mouse por cima */
+        }
+
+        #area-cabecalho {
+            background-color: mediumpurple;
+            padding: 15px;
+            text-align: center;
+        }
+
+        #area-logo,
+        #area-menu {
+            padding: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: blue;
+            display: block;
+            margin-top: 10px;
+        }
+
+        a:link,
+        a:visited {
+            color: #0c0a06;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        #area-cabecalho a:link,
+        #area-cabecalho a:visited {
+            color: #ffffff;
+            padding: 8px 12px;
+        }
+
+        #area-cabecalho a:hover {
+            color: #f7b600;
+            background: #ffffff;
+            text-decoration: none;
+        }
+
+        h1 {
+            color: #4e4e4e;
+            font-size: 2.5em;
+            text-align: center;
+        }
+
+        h2 {
+            color: #030303;
+        }
+
+        h3 {
+            color: #565656;
+            background: #CCC;
+            padding: 5px;
+        }
+
+        .branco {
+            color: white;
+        }

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TutorVirtual</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="enviar.js"></script>
+
+</head>
+<body>
+
+    <div id="area-cabecalho">
+        <div id="area-logo">
+            <h1>Tutor<span class="branco">Virtual</span></h1>
+        </div>
+        <div id="area-menu">
+            <a href="../index.php">Home</a>
+        </div>
+    </div>
+    <h1>Como Construir Um TCC</h1>
+    <div id="area-menu">
+        <div class="section" id="introducao"onclick="showContent('introducao')">
+            <h2 >1. Introdução</h2>
+            <div class="content" id="content_introducao">
+                <p>Apresentação do tema, contextualização e formulação do problema.</p>
+                <ul>
+                    <li>Escolha do Tema: Defina um assunto relevante.</li>
+                    <li>Contextualização: Apresente o contexto em que o problema está inserido.</li>
+                    <li>Formulação do Problema: Descreva claramente o problema que será abordado.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section" id="objetivos"onclick="showContent('objetivos')">
+            <h2 >2. Objetivos</h2>
+            <div class="content" id="content_objetivos">
+                <p>Definição dos objetivos geral e específicos do trabalho.</p>
+                <ul>
+                    <li>Objetivo Geral: Meta principal do trabalho.</li>
+                    <li>Objetivos Específicos: Passos necessários para atingir o objetivo geral.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section" id="fundamentacao"onclick="showContent('fundamentacao')">
+            <h2 >3. Fundamentação Teórica</h2>
+            <div class="content" id="content_fundamentacao">
+                <p>Revisão da literatura e apresentação dos conceitos teóricos relevantes.</p>
+                <ul>
+                    <li>Revisão Bibliográfica: Resumo das principais contribuições existentes sobre o tema.</li>
+                    <li>Conceitos Teóricos: Apresentação de teorias e frameworks relacionados.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section" id="metodologia"onclick="showContent('metodologia')">
+            <h2 >4. Metodologia</h2>
+            <div class="content" id="content_metodologia">
+                <p>Descrição detalhada da abordagem utilizada para desenvolver o trabalho.</p>
+                <ul>
+                    <li>Tipo de Pesquisa: Exploratória, descritiva, experimental, etc.</li>
+                    <li>Procedimentos: Descrição dos passos adotados na pesquisa.</li>
+                    <li>Coleta de Dados: Instrumentos e técnicas utilizados na coleta de informações.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section" id="resultados"onclick="showContent('resultados')">
+            <h2 >5. Resultados</h2>
+            <div class="content" id="content_resultados">
+                <p>Apresentação e análise dos resultados obtidos durante a pesquisa.</p>
+                <ul>
+                    <li>Gráficos e Tabelas: Representação visual dos dados.</li>
+                    <li>Análise dos Resultados: Interpretação dos dados coletados.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section" id="conclusao"onclick="showContent('conclusao')">
+            <h2 >6. Conclusão</h2>
+            <div class="content" id="content_conclusao">
+                <p>Conclusões finais e contribuições do trabalho para a área de estudo.</p>
+                <ul>
+                    <li>Resumo dos Resultados: Recapitulação dos principais achados.</li>
+                    <li>Contribuições: Como o trabalho agrega ao conhecimento existente.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section" id="revisao"onclick="showContent('revisao')">
+            <h2 >7. Revisão, Formatação e Apresentação</h2>
+            <div class="content" id="content_revisao">
+                <p>Revisão final do TCC, formatação de acordo com as normas e preparação para a apresentação.</p>
+                <ul>
+                    <li>Revisão Ortográfica e Gramatical.</li>
+                    <li>Formatação: Adequação às normas da instituição.</li>
+                    <li>Preparação para Apresentação: Elaboração de slides e prática da apresentação oral.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Adicione outras seções semelhantemente -->
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

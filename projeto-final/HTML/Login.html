@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="page">
+        <form action="veri_login.php" method="post" class="formLogin">
+            <h1> Login </h1>
+            <p> Digite os seus dados de acesso no campo abaixo. </p>
+            <label for="usuario">Usuário</label>
+            <input type="text" name="usuario" placeholder="Digite aqui o seu Usuário" autofocus="true">
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" placeholder="Digite sua senha">
+            
+            <p>Ainda não tenho uma conta?
+                <a href="./cadastro.php">Registre-se</a> <br>
+                <a href="/">Esqueci a minha senha</a>
+            </p>
+            <input type="submit" value="Acessar" class="btn">
+        </form>
+    </div>
+</body>
+</html>
